@@ -10,7 +10,7 @@
 	$("#tweet-box").css('height', $(window).height());
 	$("#text-box").css('width', $(window).width()/2);
 	$("#input").css('width', $(window).width()/2);
-	$("#input").css('top', $(window).height()/2);
+	
 	$(".alert").hide();
 	$("#loading").hide();
 
@@ -48,6 +48,7 @@
 
 	$('#input').keyup(function(){
 		$(".jumbotron").hide();
+		$("#input").css('top', $(window).height()/2);
 		
 		var search = $('#input').val();
 		var count = 0;
