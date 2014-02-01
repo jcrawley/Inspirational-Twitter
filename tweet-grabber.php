@@ -7,10 +7,10 @@ require_once('firebaseLib.php');
 
 /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
 $settings = array(
-    'oauth_access_token' => "205910382-BDOrmoghDMVFlxPjxmXhuclmmSW0frzjitWNTQ16",
-    'oauth_access_token_secret' => "VCqTiWjOWEECxWHTTjRwYMCs1uQor0dTNMBQFqkmI9q3k",
-    'consumer_key' => "hS0FRlszeVrFp6O1szrYAQ",
-    'consumer_secret' => "nUbPeJmyAQMmPFGBTYG14IIDXbgPrq42h6P3pHio"
+    'oauth_access_token' => "",
+    'oauth_access_token_secret' => "",
+    'consumer_key' => "",
+    'consumer_secret' => ""
 );
 
 
